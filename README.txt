@@ -17,7 +17,8 @@ EDITING:
 by clicking repository > pull
 1. create a new branch with branch > new branch
 2. ideally title it with a small description of what youre
-currently working on like "menu-fix"
+currently working on like "menu-fix". you can also push
+"publish branch" rn it really doesnt matter when you do it
 3. code dat shit
 4. when your code is ready, go to the left panel on
 github desktop, describe your changes in "summary"
@@ -25,8 +26,9 @@ github desktop, describe your changes in "summary"
 ***DO NOT COMMIT TO MAIN!!!!!***
 6. continue making edits and commits as needed
 7. when you are ready, push "Publish branch" in the
-top panel
-8. in the top bar, push branch > create pull request
+top panel if you havent already, and then push "push origin"
+8. in the top bar, push branch > create pull request, or push
+"preview pull request" in the middle screen
 9. if there are no merge conflict errors, your branch
 can be merged into main 
 10. repeat
