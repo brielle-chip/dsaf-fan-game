@@ -17,7 +17,8 @@ EDITING:
 by clicking repository > pull
 1. create a new branch with branch > new branch
 2. ideally title it with a small description of what youre
-currently working on like "menu-fix"
+currently working on like "menu-fix". you can also push
+"publish branch" rn it really doesnt matter when you do it
 3. code dat shit
 4. when your code is ready, go to the left panel on
 github desktop, describe your changes in "summary"
