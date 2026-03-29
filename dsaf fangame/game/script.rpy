@@ -4,7 +4,7 @@
 # name of the character.
 
 define glorp = Character("Glorp", color="bbe480")
-
+define ballsack = Character("Ballsack", color="1e00dc")
 
 # The game starts here.
 
@@ -38,8 +38,45 @@ label start:
     
     glorp "mmmm that name sounds delicious..."
 
+    show Glorp thinking at left
+    show Ballsack enter:
+        xalign 0.7
+        yalign 0.6
+
+    show Glorp shock
+    glorp "GAAAAAASP IS THAT MY ONE AND ONLY RIVAL, BALLSACK??!?!"
+
+    ballsack "hey everybody its me ballsack here"
+
+    glorp "THERES ONLY ONE WAY TO SETTLE THIS..."
+    glorp "GYATT OFF"
+
+    show Glorp gyatt
+    show Ballsack gyatt
+
+    menu:
+        "So... Who has the biggest gyatt? Choose wisely."
+        "Glorp":
+            jump glorp_wins_gyatt_off
+
+        "Ballsack":
+            jump ballsack_wins_gyatt_off
+
     # This ends the game.
 
     return
 
     
+label glorp_wins_gyatt_off:
+    show Glorp thinking
+    glorp "YAAAAY I KNEW I HAD THE BIGGEST GYATT"
+    ballsack "aw man"
+    hide Ballsack with dissolve
+    return
+
+label ballsack_wins_gyatt_off:
+    show Glorp shock
+    glorp "WHAAAAAAAT??!?!! HOW COULD THIS BE"
+    ballsack "hell yeah"
+    hide Glorp with dissolve
+    return
