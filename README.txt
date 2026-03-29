@@ -26,7 +26,7 @@ github desktop, describe your changes in "summary"
 ***DO NOT COMMIT TO MAIN!!!!!***
 6. continue making edits and commits as needed
 7. when you are ready, push "Publish branch" in the
-top panel
+top panel if you havent already, and then push "push origin"
 8. in the top bar, push branch > create pull request
 9. if there are no merge conflict errors, your branch
 can be merged into main 
